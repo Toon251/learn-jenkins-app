@@ -14,7 +14,6 @@ pipeline {
                     ls -la
                     node --version
                     npm --version
-                    chown -R jenkins:jenkins /usr/local/etc
                     npm ci
                     npm run build
                     ls -la
